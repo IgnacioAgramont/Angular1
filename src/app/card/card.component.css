@@ -1,0 +1,9 @@
+.navbarsized{
+    font-size: 35px;
+}
+
+.boxnavbar{
+    display: flex;
+    flex-direction: row;
+    flex: 1 auto;
+}
