@@ -1,2 +1,106 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <app-card></app-card>
-<br><br><br><br><br><br><br>
+<br><br><br><br><br>
+<div class="container"> <img src="./assets/Ing-Sis.jpg" alt="" style="width:100%">
+    <div class="bottom-left">¡Bienvenid@ a Sistemas!</div>
+</div>
+<hr size="4px" color="black" />
+<app-smallcard></app-smallcard>
+<hr size="4px" color="black" />
+<h1 align="center">Tenemos diferentes maestrias para ti</h1>
+<br>
+<div class="mx-auto" style="max-width: 80%;">
+    <table class="table table-bordered table-sm">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Maestria</th>
+                <th scope="col">Horario</th>
+                <th scope="col">Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{maestrias.one}}</td>
+                <td>{{horarios.one}}</td>
+                <td>{{precio.one}}</td>
+            </tr>
+            <tr>
+                <td>{{maestrias.two}}</td>
+                <td>{{horarios.two}}</td>
+                <td>{{precio.two}}</td>
+            </tr>
+            <tr>
+                <td>{{maestrias.three}}</td>
+                <td>{{horarios.three}}</td>
+                <td>{{precio.three}}</td>
+            </tr>
+            <tr>
+                <td>{{maestrias.four}}</td>
+                <td>{{horarios.four}}</td>
+                <td>{{precio.four}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<br>
+<footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://www.facebook.com/UCB.SIS"
+          target="_blank"
+          role="button"
+          ><i class="fa fa-facebook"></i
+        ></a>
+  
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="https://www.instagram.com/clouds.ucb/"
+          target="_blank"
+          role="button"
+          ><i class="fa fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-primary btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="https://www.linkedin.com/school/universidad-católica-boliviana/"
+          target="_blank"
+          role="button"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+      </section>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" target="_blank" href="https://github.com/IgnacioAgramont">Ignacio Agramont</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+<!-- <table cellpading="10" cellspacing="10" border="1" style="background-color:#00ffcc">
+<tr>
+    <th>Maestria</th>
+    <th>Horarios</th>
+    <th>Precio</th>
+</tr>
+<tr>
+    <td>{{maestrias.one}}</td>
+    <td>{{horarios.one}}</td>
+    <td>{{precio.one}}</td>
+</tr>
+</table> -->
+<!-- 
+<article class="bee">
+    <b>Su nombre es:</b>
+    <p>{{ maestrias.one }}</p>
+</article>  -->
