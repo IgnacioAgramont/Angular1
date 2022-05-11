@@ -1,0 +1,2 @@
+El proyecto esta desarrollado en Angular, el proyecto tiene la facilidad de ser rapida y simple, una pagina informativa para la
+Carrera de Sistemas de la Universidad Catolica Boliviana.
